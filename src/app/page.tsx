@@ -4,8 +4,6 @@ import profile from '/public/amrinder-bitmoji.png';
 import project1 from '/public/workflowvault.png';
 import project2 from '/public/quizapp.png';
 import project3 from '/public/photolabs.png';
-import background from '/public/background.jpeg';
-
 
 export default function Home() {
   return (
