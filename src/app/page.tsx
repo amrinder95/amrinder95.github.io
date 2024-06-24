@@ -1,9 +1,9 @@
 import Image from "next/image";
 import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai';
-import profile from '/public/amrinder-bitmoji.png';
-import project1 from '/public/workflowvault.png';
-import project2 from '/public/quizapp.png';
-import project3 from '/public/photolabs.png';
+import profile from '../public/amrinder-bitmoji.png';
+import project1 from '../public/workflowvault.png';
+import project2 from '../public/quizapp.png';
+import project3 from '../public/photolabs.png';
 
 export default function Home() {
   return (
