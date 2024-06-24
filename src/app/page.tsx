@@ -1,9 +1,9 @@
 import Image from "next/image";
 import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai';
-import profile from '/amrinder-bitmoji.png';
-import project1 from '/workflowvault.png';
-import project2 from '/quizapp.png';
-import project3 from '/photolabs.png';
+import profile from '/public/amrinder-bitmoji.png';
+import project1 from '/public/workflowvault.png';
+import project2 from '/public/quizapp.png';
+import project3 from '/public/photolabs.png';
 
 export default function Home() {
   return (
@@ -18,10 +18,10 @@ export default function Home() {
 
         <div className="text-center p-10 py-10">
           <div className="flex justify-center">
-            <Image src={profile} alt="amrinder-bitmoji" className="h-20 w-20 border-solid border-2 border-emerald-400 rounded-full"/>
+            <Image src={profile} alt="amrinder-bitmoji" className="h-20 w-20 border-solid border-2 border-emerald-400 rounded-full" unoptimized/>
           </div>
           <h2 className="text-6xl py-2 text-emerald-400">Amrinder Singh</h2>
-          <h3 className="text-3xl py-2 font-Abel">Full-stack Developer.</h3>
+          <h3 className="text-3xl py-2">Full-stack Developer.</h3>
           <p className="text-xl py-5 leading-8 text-gray-600">Transforming ideas into beautiful and functional websites. I specialize in creating responsive, user-friendly web experiences with a focus on clean design and efficient code.</p>
         </div>
         <div className="flex justify-center py-3 mt-8">
@@ -39,7 +39,7 @@ export default function Home() {
         </div>
         <div className="grid gap-8 grid-cols-1 md:grid-cols-3 lg:grid-cols-3">
           <div className="max-w-screen-sm rounded overflow-hidden shadow-lg mt-2">
-            <Image className="w-full" src={project1} alt="workflowvault"/>
+            <Image className="w-full" src={project1} alt="workflowvault" unoptimized/>
             <div className="px-6 py-4">
               <div className="font-bold text-xl mb-2">
                 WorkFlowVault
@@ -54,7 +54,7 @@ export default function Home() {
             </div>
           </div>
           <div className="max-w-screen-sm rounded overflow-hidden shadow-lg my-4">
-            <Image className="w-full" src={project2} alt="quizapp"/>
+            <Image className="w-full" src={project2} alt="quizapp" unoptimized/>
             <div className="px-6 py-4">
               <div className="font-bold text-xl mb-2">
                 QuizApp
@@ -68,7 +68,7 @@ export default function Home() {
             </div>
           </div>
           <div className="max-w-screen-sm rounded overflow-hidden shadow-lg my-4">
-            <Image className="w-full" src={project3} alt="photolabs"/>
+            <Image className="w-full" src={project3} alt="photolabs" unoptimized/>
             <div className="px-6 py-4">
               <div className="font-bold text-xl mb-2">
                 PhotoLabs
