@@ -65,6 +65,7 @@ export default function Home() {
             </div>
             <div className="px-6 pt-4 pb-2 flex justify-center">
               <a href="https://github.com/amrinder95/workflowvault" className="rounded-md px-4 py-2 text-white bg-emerald-400 text-xl mr-2">Github</a>
+              <a href="#" className="rounded-md px-4 py-2 text-white bg-emerald-400 text-xl mr-2">Live</a>
             </div>
           </div>
           <div className="max-w-screen-sm rounded overflow-hidden shadow-lg my-4">
@@ -79,6 +80,7 @@ export default function Home() {
             </div>
             <div className="px-6 pt-4 pb-2 flex justify-center">
               <a href="https://github.com/amrinder95/PhotoLabs" className="rounded-md px-4 py-2 text-white bg-emerald-400 text-xl mr-2">Github</a>
+              <a href="#" className="rounded-md px-4 py-2 text-white bg-emerald-400 text-xl mr-2">Live</a>
             </div>
           </div>
         </div>
