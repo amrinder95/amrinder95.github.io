@@ -38,7 +38,7 @@ export default function Home() {
           <h3 className="text-6xl py-4 text-emerald-400">My Projects</h3>
         </div>
         <div className="grid gap-8 grid-cols-1 md:grid-cols-3 lg:grid-cols-3">
-          <div className="max-w-screen-sm rounded overflow-hidden shadow-lg mt-2">
+          <div className="max-w-screen-sm rounded overflow-hidden shadow-lg my-4 flex flex-col h-full">
             <Image className="w-full" src={project1} alt="workflowvault" unoptimized/>
             <div className="px-6 py-4">
               <div className="font-bold text-xl mb-2">
@@ -48,12 +48,12 @@ export default function Home() {
                 WorkflowVault is a comprehensive project management and employee tracking platform designed to streamline operations, enhance collaboration, and boost productivity.
               </p>
             </div>
-            <div className="px-6 pt-4 pb-2 flex justify-center">
+            <div className="px-6 pt-4 pb-2 flex justify-center mt-auto">
               <a href="https://github.com/amrinder95/workflowvault" className="rounded-md px-4 py-2 text-white bg-emerald-400 text-xl mr-2">Github</a>
               <a href="https://workflowvault.netlify.app" className="rounded-md px-4 py-2 text-white bg-emerald-400 text-xl mr-2">Live</a>
             </div>
           </div>
-          <div className="max-w-screen-sm rounded overflow-hidden shadow-lg my-4">
+          <div className="max-w-screen-sm rounded overflow-hidden shadow-lg my-4 flex flex-col h-full">
             <Image className="w-full" src={project2} alt="quizapp" unoptimized/>
             <div className="px-6 py-4">
               <div className="font-bold text-xl mb-2">
@@ -63,12 +63,12 @@ export default function Home() {
                 QuizApp is a unique tool for anyone who might want to share, retrieve and score quizzes. Users can create and share quizzes or view publicly listed quizzes. Quizzes can also be attempted and scores can be viewed and shared.
               </p>
             </div>
-            <div className="px-6 pt-4 pb-2 flex justify-center">
+            <div className="px-6 pt-4 pb-2 flex justify-center mt-auto">
               <a href="https://github.com/amrinder95/workflowvault" className="rounded-md px-4 py-2 text-white bg-emerald-400 text-xl mr-2">Github</a>
               <a href="#" className="rounded-md px-4 py-2 text-white bg-emerald-400 text-xl mr-2">Live</a>
             </div>
           </div>
-          <div className="max-w-screen-sm rounded overflow-hidden shadow-lg my-4">
+          <div className="max-w-screen-sm rounded overflow-hidden shadow-lg my-4 flex flex-col h-full">
             <Image className="w-full" src={project3} alt="photolabs" unoptimized/>
             <div className="px-6 py-4">
               <div className="font-bold text-xl mb-2">
@@ -78,7 +78,7 @@ export default function Home() {
               A react-based interactive photo library. Users can view and like photos, filter by topics, and be notified if there are any liked pictures.
               </p>
             </div>
-            <div className="px-6 pt-4 pb-2 flex justify-center">
+            <div className="px-6 pt-4 pb-2 flex justify-center mt-auto">
               <a href="https://github.com/amrinder95/PhotoLabs" className="rounded-md px-4 py-2 text-white bg-emerald-400 text-xl mr-2">Github</a>
               <a href="#" className="rounded-md px-4 py-2 text-white bg-emerald-400 text-xl mr-2">Live</a>
             </div>
