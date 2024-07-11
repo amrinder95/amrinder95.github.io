@@ -4,6 +4,7 @@ import profile from '../../public/amrinder-bitmoji.png';
 import project1 from '../../public/workflowvault.png';
 import project2 from '../../public/quizapp.png';
 import project3 from '../../public/photolabs.png';
+import project4 from '../../public/netflix-clone.png';
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
         <nav className="py-10 mb-12 flex justify-between">
           <h1 className="text-3xl">Amrinder Singh</h1>
           <ul className="flex items-center">
-            <li><a href="/public/AmrinderResume.pdf" className="ml-8 rounded-md px-4 py-2 text-white bg-emerald-400 text-xl hover:bg-gray-600" target="_blank">Resume</a></li>
+            <li><a href="https://github.com/amrinder95/amrinder95.github.io/blob/main/public/AmrinderResume.pdf" className="ml-8 rounded-md px-4 py-2 text-white bg-emerald-400 text-xl hover:bg-gray-600" target="_blank">Resume</a></li>
           </ul>
         </nav>
 
@@ -81,6 +82,21 @@ export default function Home() {
             <div className="px-6 pt-4 pb-2 flex justify-center mt-auto">
               <a href="https://github.com/amrinder95/PhotoLabs" className="rounded-md px-4 py-2 text-white bg-emerald-400 text-xl mr-2">Github</a>
               <a href="#" className="rounded-md px-4 py-2 text-white bg-emerald-400 text-xl mr-2">Live</a>
+            </div>
+          </div>
+          <div className="max-w-screen-sm rounded overflow-hidden shadow-lg my-4 flex flex-col h-full">
+            <Image className="w-full" src={project4} alt="netflix-clone" unoptimized/>
+            <div className="px-6 py-4">
+              <div className="font-bold text-xl mb-2">
+                Netflix
+              </div>
+              <p className="text-gray-700 text-base">
+              A clone of the popular streaming service Netflix, built using React, Firebase, Stripe, and Redux. Users can sign up, log in, manage subscriptions and checkout using Stripe.
+              </p>
+            </div>
+            <div className="px-6 pt-4 pb-2 flex justify-center mt-auto">
+              <a href="https://github.com/amrinder95/netflix-clone" className="rounded-md px-4 py-2 text-white bg-emerald-400 text-xl mr-2">Github</a>
+              <a href="https://netflix-clone-69a94.firebaseapp.com/" className="rounded-md px-4 py-2 text-white bg-emerald-400 text-xl mr-2">Live</a>
             </div>
           </div>
         </div>
