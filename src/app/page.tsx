@@ -13,7 +13,7 @@ export default function Home() {
         <nav className="py-10 mb-12 flex justify-between">
           <h1 className="text-3xl">Amrinder Singh</h1>
           <ul className="flex items-center">
-            <li><a href="https://github.com/amrinder95/amrinder95.github.io/blob/main/public/AmrinderResume.pdf" className="ml-8 rounded-md px-4 py-2 text-white bg-emerald-400 text-xl hover:bg-gray-600" target="_blank">Resume</a></li>
+            <li><a href="/AmrinderResume.pdf" className="ml-8 rounded-md px-4 py-2 text-white bg-emerald-400 text-xl hover:bg-gray-600" target="_blank">Resume</a></li>
           </ul>
         </nav>
 
